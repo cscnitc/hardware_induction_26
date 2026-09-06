@@ -1,1 +1,78 @@
-# hardware_induction_26
+# Hardware / Embedded Security
+
+1. **Task 0 - ESP32 Project**
+
+    Build any ESP32 project of your choice using [Wokwi](https://wokwi.com/).  
+    Get Comfortable with embedded programing and components.
+
+2. **Task 1A - Embedded Security Research**
+
+   Do *any two or more* of these:
+
+   1. Debug interfaces and physical access (UART, JTAG, SWD)
+   2. Peripheral bus security and physical sniffing (SPI, I2C, CAN)
+   3. Memory safety in embedded systems (Buffer overflows, pointer corruption, stack smashing)
+   4. Firmware concurrency and shared state (Interrupt handling, race conditions, atomic operations)
+   5. Non-volatile storage and flash extraction (External flash dumping, hardcoded secrets, EEPROM extraction)
+   6. Firmware integrity and secure boot (Cryptographic signatures, eFuses, hardware root of trust)
+   7. Side-channel analysis and signal leakage (Power analysis SPA/DPA, timing attacks, EM emissions)
+   8. Fault injection and hardware glitching (Voltage/clock glitching, instruction skipping, EMFI)
+   9. Memory integrity and physical disturbance (Rowhammer, bit hammering, cold boot attacks)
+
+   Analyze the security risks, possible attacks, impact, and mitigations.
+
+3. **Task 1B - Operation CERBERUS (Optional)**
+
+    Try the [CERBERUS challenge](https://wokwi.com/projects/474409440043071489).
+
+    Investigate the prototype firmware and find as many significant security or reliability issues as you can.
+
+    For the issues you find:
+    - Reproduce them
+    - Identify the root cause
+    - Explain the impact
+    - Patch them
+
+4. **Task 2 - Driver Cooking (Bonus)**
+
+    Write a driver for the **DS1307 NVRAM** in Wokwi without using third-party device libraries.
+
+    Use only native Arduino `Wire.h` primitives:
+    `Wire.beginTransmission()`, `Wire.write()`, `Wire.endTransmission()`, `Wire.requestFrom()`, and `Wire.read()`.
+
+    Your driver should support:
+    - Byte read/write
+    - Buffer read/write
+    - Boundary protection
+
+    The DS1307 memory layout is:
+
+    ```text
+    0x00 - 0x07    Timekeeping registers
+    0x08 - 0x3F    User NVRAM
+    ```
+    [DS1307 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/DS1307.pdf)
+
+    User memory operations must not read from or modify the timekeeping registers.
+
+5. **Task 3 - Timing Analysis (Bonus)**
+
+    Using [Wokwi](https://wokwi.com/), design a small experiment to investigate whether observable timing differences can reveal information about a program's execution.
+
+    Use GPIO signals and the Wokwi logic analyzer to collect and compare timings.
+
+    Explain your observations and what they could mean from a security perspective.
+
+## Deliverables
+
+   Submit a single document containing a good report of everything you did, learned, investigated, and found across all the tasks.
+
+   Clearly separate your work under each task.
+
+   Make sure you understand and know what all you did.
+
+## Submission
+
+**Deadline:** 22 SEPT 11:59 PM
+
+[Submission Form](https://forms.gle/wac3aLq2FV1u14No9)
