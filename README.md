@@ -23,7 +23,7 @@
 
 3. **Task 1B - Operation CERBERUS (Optional)**
 
-    Try the [CERBERUS challenge](https://wokwi.com/projects/474409440043071489).
+    Try the [CERBERUS challenge](https://wokwi.com/projects/474344625217808385).
 
     Investigate the prototype firmware and find as many significant security or reliability issues as you can.
 
@@ -52,10 +52,12 @@
     0x08 - 0x3F    User NVRAM
     ```
     [DS1307 Datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/DS1307.pdf)
+   
+   [Template and Tester](https://wokwi.com/projects/474409440043071489)
 
     User memory operations must not read from or modify the timekeeping registers.
 
-5. **Task 3 - Timing Analysis (Bonus)**
+6. **Task 3 - Timing Analysis (Bonus)**
 
     Using [Wokwi](https://wokwi.com/), design a small experiment to investigate whether observable timing differences can reveal information about a program's execution.
 
@@ -65,11 +67,9 @@
 
 ## Deliverables
 
-   Submit a single document containing a good report of everything you did, learned, investigated, and found across all the tasks.
+   Submit one report containing your work for all completed tasks, along with links to your code/simulation. The report should document your approach, observations, vulnerabilities identified, exploitation/demonstration steps, fixes/mitigations, and what you learned.
 
-   Clearly separate your work under each task.
-
-   Make sure you understand and know what all you did.
+   Make sure you understand and know everything you did.
 
 ## Submission
 
