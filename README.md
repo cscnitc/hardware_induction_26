@@ -3,23 +3,30 @@
 1. **Task 0 - ESP32 Project**
 
     Build any ESP32 project of your choice using [Wokwi](https://wokwi.com/).  
-    Get Comfortable with embedded programing and components.
+    Get comfortable with embedded programming and components.
 
 2. **Task 1A - Embedded Security Research**
-
-   Do *any two or more* of these:
-
-   1. Debug interfaces and physical access (UART, JTAG, SWD)
-   2. Peripheral bus security and physical sniffing (SPI, I2C, CAN)
-   3. Memory safety in embedded systems (Buffer overflows, pointer corruption, stack smashing)
-   4. Firmware concurrency and shared state (Interrupt handling, race conditions, atomic operations)
-   5. Non-volatile storage and flash extraction (External flash dumping, hardcoded secrets, EEPROM extraction)
-   6. Firmware integrity and secure boot (Cryptographic signatures, eFuses, hardware root of trust)
-   7. Side-channel analysis and signal leakage (Power analysis SPA/DPA, timing attacks, EM emissions)
-   8. Fault injection and hardware glitching (Voltage/clock glitching, instruction skipping, EMFI)
-   9. Memory integrity and physical disturbance (Rowhammer, bit hammering, cold boot attacks)
-
-   Analyze the security risks, possible attacks, impact, and mitigations.
+    
+    Do *any two or more* of these:
+    
+    1. Debug interfaces and physical access (UART, JTAG, SWD)
+    2. Peripheral bus security and physical sniffing (SPI, I2C, CAN)
+    3. Memory safety in embedded systems (Buffer overflows, pointer corruption, stack smashing)
+    4. Firmware concurrency and shared state (Interrupt handling, race conditions, atomic operations)
+    5. Non-volatile storage and flash extraction (External flash dumping, hardcoded secrets, EEPROM extraction)
+    6. Firmware integrity and secure boot (Cryptographic signatures, eFuses, hardware root of trust)
+    7. Side-channel analysis and signal leakage (Power analysis SPA/DPA, timing attacks, EM emissions)
+    8. Fault injection and hardware glitching (Voltage/clock glitching, instruction skipping, EMFI)
+    9. Memory integrity and physical disturbance (Rowhammer, bit hammering, cold boot attacks)
+    
+    *This is a research task only. You do NOT need any physical hardware and you do NOT need to reproduce or perform any real attack.*
+    
+    For each topic you choose, learn about:
+    
+    - What it is and what it does
+    - Its security flaws and risks
+    - Possible attacks and impact
+    - How it can be protected
 
 3. **Task 1B - Operation CERBERUS (Optional)**
 
@@ -72,6 +79,9 @@
    Make sure you understand and know everything you did.
 
 ## Submission
+**No physical hardware is required to complete any of the tasks..** All tasks can be completed using Wokwi, research, and software-based resources.
+
+You may use any resources available to you, including online documentation, articles, research papers, tutorials, and other references.
 
 **Deadline:** 22 SEPT 11:59 PM
 
