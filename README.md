@@ -83,6 +83,6 @@
 
 You may use any resources available to you, including online documentation, articles, research papers, tutorials, and other references.
 
-**Deadline:** 22 SEPT 11:59 PM
+**Deadline:** 27 SEPT 11:59 PM
 
 [Submission Form](https://forms.gle/wac3aLq2FV1u14No9)
